@@ -13,16 +13,7 @@
     </head>
     <body>
         <H1>LOGIN FORM</H1>
-        <%
-        String myname =  (String)session.getAttribute("username");
-        
-        if(myname!=null)
-            {
-             out.println("Welcome  "+myname+"  , <a href=\"logout.jsp\" >Logout</a>");
-            }
-        else 
-            {
-            %>
+      
             <form action="checkLogin.jsp">
                 <table>
                     <tr>
