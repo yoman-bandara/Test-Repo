@@ -24,6 +24,7 @@
                     </tr>
                 </table>
                 <input type="submit" value="login" />
+                 <input type="submit" value="reset" />
             </form>
             <% 
             }
